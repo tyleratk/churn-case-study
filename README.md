@@ -13,17 +13,21 @@ For this case study we analyzed a dataset of users from 2014 to predict if, and 
   - Luxury car users
   - Weekday percentage 
   
-### EDA
-Before modeling, we did some general EDA to better understand the data we were working with. Below are some of the plots we created. **Note: this is pre-standardization**  
+## EDA
+Before modeling, we did some general EDA to better understand the data we were working with. Below are some plots we found most interesting. **Note: this is pre-standardization**  
 ![](images/violin.png)  
+  
 ![](images/device.png)  
+  
 ![](images/city.png)  
+  
 ![](images/luxury.png)  
-
-### Modeling
+  
+## Modeling
 After testing a few different models, we decided an XGBoost Classifier would be best for our purposes. 
 ![](images/roc.png)  
+  
 ![](images/metrics.png)  
 
-### Recommendations
+## Recommendations
 We offered many recommendations to the company. The first and most important one was how they could increase the quality of their data by suggesting new metrics to track. We also suggested the use of offering some type of incentive to people we believe are on the verge of churning.
